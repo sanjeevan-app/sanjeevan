@@ -116,5 +116,5 @@ export const PaywallBlocks: React.FC<{
     )
   }
 
-  return <Blocks blocks={blocks} disableTopPadding={disableTopPadding} />
+  return <Blocks blocks={blocks || []} disableTopPadding={disableTopPadding} />
 }
